@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+  }
+
+.first{
+  color:#ffd924;
+  font-family: sans-serif;
+  font-size: 40px; 
+  text-transform: uppercase;
+}
+
+h2{
+  color:#595959;
+  font-family: sans-serif;
+  font-size: 25px; 
+}
+
+hr{
+  background-color:#ffd924;
+  border: solid 1px #ffd924;
+
+}
+
+.indent40{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.iconYellow{
+       color: #ffd924;
+     //padding-right: 30px;   
+}
+
+.circleIcon{
+  color: #595959;
+  border: 1px solid #595959;
+  border-radius:50%;
+  padding: 2px
+}
+
+.centerIconDiv{
+text-align: center;
+}
+.centerIconDiv span{
+display: inline-block;
+padding:20px;
+}
+.circleBorder{
+    border-radius: 50%;
+    padding: 15px;
+    border: 2px solid rgb(64,64,64);
+    height: 80px;
+  font-size: 64px;
+  color: rgb(64,64,64);
+}
+
+.surname{
+  color: Black;
+  font-size: 40px;
+  text-transform: uppercase; 
+}
+body {
+  margin: 0;
+  /*display: block;*/
+  font-family: sans-serif,Arial;
+  background-color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  //border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch; 
+  padding: 10px;
+   
+  /*justify-content: space-between;*/
+}
+
+.headingDescription{
+	font-size:60px;
+	    text-transform: uppercase;
+		    padding-left: 25px;
+}
+
+
+
+.row .col-3{
+  padding-left: 25px;
+}
+
+.row .col-9{
+  padding-left: 35px;
+}
+
+.row .col-6{
+  padding-left: 25px;
+}
+
+.row .col-12{
+     padding: 8px;
+    
+}
+
+#sidebar {
+  background-color:#ffd924
+}
+
+.headingBanner{
+  background-color: rgb(64,64,64);
+  text-align: center;
+}
+
+    .headingBannerText{
+      font-size: 25px;
+      color: #ffd924;
+    }
+
+div{
+    border-style: solid;
+	  border-color:lightblue;
+	}
+
+.span{
+  font-size: 25px;
+  font-weight: bold;
+}  
+
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%
+}
+
+img {
+  border: 3px solid #ffcd24
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+.column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* For desktop: */
+.col-1 {flex: 8.33%, max-width :8.33%;} // complete these for all cols
+.col-2 {flex: 16.66%;}
+.col-3 {flex: 20%;}
+.col-4 {flex: 33.33%;}
+.col-5 {flex: 41.66%;}
+.col-6 {flex: 50%;}
+.col-7 {flex: 58.33%;}
+.col-8 {flex: 66.66%;}
+.col-9 {flex: 75%;}
+.col-10 {flex: 83.33%;}
+.col-11 {flex: 91.66%;}
+.col-12 {flex: 100%;}
+
